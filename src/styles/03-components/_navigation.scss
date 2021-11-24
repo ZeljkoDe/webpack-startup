@@ -1,0 +1,21 @@
+.nav {
+	@include flex(space-evenly, center);
+	height: 10vh;
+	background: #000;
+	color: white;
+	text-transform: uppercase;
+
+	.nav__item {
+		line-height: 10vh;
+		padding: 0 20px;
+		height: 100%;
+
+		&.logo {
+			height: 60px;
+		}
+
+		&:hover:not(.logo) {
+			background: lighten(#000, 20%);
+		}
+	}
+}

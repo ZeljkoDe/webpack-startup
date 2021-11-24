@@ -1,0 +1,19 @@
+// basic reset
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ol,
+ul {
+	list-style: none;
+}
+body {
+	font-family: var(--ff-primary);
+}

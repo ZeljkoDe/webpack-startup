@@ -1,0 +1,55 @@
+// fonts included from google fonts
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/**** ICON FONTS ****/
+// the link bellow is used to create all icons
+// https://icomoon.io/app/#/select
+
+/****************************** DO NOT CHANGE ***********************************/
+@font-face {
+	font-family: "icomoon";
+	src: url("../assets/fonts/icomoon.ttf?enwwo") format("truetype"),
+		url("../assets/fonts/icomoon.woff?enwwo") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/********************************************************************************/
+
+// ADD here the needed icons from the link above
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+.icon-cross:before {
+	content: "\ea0f";
+}
+.icon-circle-up:before {
+	content: "\ea41";
+}
+.icon-circle-right:before {
+	content: "\ea42";
+}
+.icon-circle-down:before {
+	content: "\ea43";
+}
+.icon-circle-left:before {
+	content: "\ea44";
+}
